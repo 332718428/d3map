@@ -1,0 +1,41 @@
+/* * Homework 1
+ * CSS skeleton code
+ *
+ * Author: Bozhao Lan
+ * Version: 1.0
+ */
+
+.map {
+    background-color : antiquewhite;
+    border : thin solid #000000;
+    font-family: Arial;
+    text-align : center;
+    height: 800px;
+    width: 1200px;
+}
+
+path {
+  fill: none;
+  stroke: black;
+  stroke-width: 5;
+}
+
+.mapTooltip {
+  background-color : white;
+  border : thin solid black;
+  font-family: Arial;
+  font-size: 1em;
+  padding: 2px;
+  position: absolute;
+  visibility: hidden;
+  z-index: 1;
+  left: 600px;
+}
+
+.county {
+  fill: grey;
+}
+
+.county:hover {
+  fill: paleturquoise;
+}
